@@ -2,7 +2,7 @@
 
     Private Sub frmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim mediaQuery As New MediaQuery(Me)
+        Dim mediaQuery As New MediaQuery(Panel5)
         mediaQuery.addChildren(Panel1)
         mediaQuery.addChildren(Panel2)
         mediaQuery.addChildren(Panel3)
